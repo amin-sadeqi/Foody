@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Foody - Luxury Restaurant</title>
+    <script src="https://kit.fontawesome.com/065557dbdb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="header" class="text-light">
+        <div class="d-flex justify-content-between">
+            <h1>Foody<span> ..</span></h1>
+            <nav class="nav d-none d-md-flex pt-3" id="nav-top">
+                <a href="#" class="nav-item nav-link">WELCOME</a>
+                <a href="#" class="nav-item nav-link">RESTAURANT</a>
+                <a href="#" class="nav-item nav-link">MENU</a>
+                <a href="#" class="nav-item nav-link">EVENTS</a>
+                <a href="#" class="nav-item nav-link">FIND US</a>
+                <a href="#" class="nav-item nav-link">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="badge badge-pill badge-warning">2</span>
+                </a>
+                <a data-toggle="modal" href="#search-box">
+                    <i class="fas fa-search"></i>
+                </a>
+                <div class="modal fade" id="search-box">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-dark">Search Box</h5>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="input-group">
+                                        <input type="search" class="form-control" placeholder="Search">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn btn-secondary">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <form class="d-md-none my-4">
+            <div class="input-group">
+                <input type="search" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-secondary">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+        <div class="d-flex justify-content-between">
+            <nav class="navbar navbar-expand-md navbar-dark d-md-none pl-0" id="navbar">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="navbar-collapse collapse" id="menu">
+                    <a href="#" class="nav-item nav-link">WELCOME</a>
+                    <a href="#" class="nav-item nav-link">RESTAURANT</a>
+                    <a href="#" class="nav-item nav-link">MENU</a>
+                    <a href="#" class="nav-item nav-link">EVENTS</a>
+                    <a href="#" class="nav-item nav-link">FIND US</a>
+                </div>
+            </nav>
+            <a href="#" class="d-md-none">
+                <i class="fas fa-shopping-bag mt-3"></i>
+                <span class="badge badge-pill badge-warning">2</span>
+            </a>
+        </div>
+        <div class="row">
+            <div class="col text-center" id="header-text">
+                <h2>Welcome</h2>
+                <p>5 STAR RESTAURANT</p>
+                <a href="#" class="btn btn-warning btn-lg rounded-0">BOOK TABLE</a>
+            </div>
+        </div>
+    </section>
+    <section id="discover">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="discover-item item1">
+                        <div class="discover-item-overlay px-3 text-center d-flex flex-column justify-content-center">
+                            <h3 class="text-warning">Discover</h3>
+                            <h4>OUR STORY</h4>
+                            <p class="text-muted">Opened by Rick Stein and Jill Stein in 1975, The Seafood Restaurant is
+                                famous foe establishing an
+                                international reputation.</p>
+                            <a href="#" class="text-warning">ABOUT US</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="discover-item item2"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="discover-item item3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="special">
+        <header class="section-header text-center">
+            <h2 class="text-warning">Specialities</h2>
+            <h3 class="text-light mb-5">OUR SERVICES</h3>
+        </header>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="special-item breakfast">
+                        <div class="special-item-overlay">
+                            <div class="overlay-border">
+                                <a href="#" class="text-light">VIEW FULL SERVICE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-light item-h3">BREAKFAST</h3>
+                </div>
+                <div class="col-md-4">
+                    <div class="special-item lunch">
+                        <div class="special-item-overlay">
+                            <div class="overlay-border">
+                                <a href="#" class="text-light">VIEW FULL SERVICE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-light item-h3">LUNCH</h3>
+                </div>
+                <div class="col-md-4">
+                    <div class="special-item dinner">
+                        <div class="special-item-overlay">
+                            <div class="overlay-border">
+                                <a href="#" class="text-light">VIEW FULL SERVICE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-light item-h3">DINNER</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="to-day">
+        <header class="section-header text-center">
+            <h2 class="text-warning">To Day</h2>
+            <h3 class="text-dark mb-5">SPECIAL MENU</h3>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 pr-md-0">
+                    <div class="potion">
+                        <div class="description two-col-description bg-warning text-light">
+                            <i class="fas fa-ice-cream"></i>
+                            <h3>Dessert</h3>
+                            <span class="bg-light"></span>
+                            <h4>ICE CREAM</h4>
+                            <p>
+                                Aheaping pxortion of a local favorite. Golden fried shrimp served with french frie.
+                            </p>
+                            <h5>FROM $9.99</h5>
+                        </div>
+                        <div class="ice-cream-img"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 pl-md-0">
+                    <div class="potion">
+                        <div class="description four-col-description to-right-arrow">
+                            <i class="fas fa-hamburger"></i>
+                            <h3>Dinner</h3>
+                            <span class="bg-warning my-1"></span>
+                            <h4 class="text-dark">CHIKEN GRILLED</h4>
+                            <h5>FROM $9.99</h5>
+                        </div>
+                        <div class="dinner-img"></div>
+                        <div class="lunch-img"></div>
+                        <div class="description four-col-description to-left-arrow">
+                            <i class="fas fa-utensils"></i>
+                            <h3>Lunch</h3>
+                            <span class="bg-warning my-1"></span>
+                            <h4 class="text-dark">SUSHI FISH</h4>
+                            <h5>FROM $9.99</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 pr-md-0">
+                    <div class="potion">
+                        <div class="description four-col-description to-right-arrow">
+                            <i class="fas fa-hamburger"></i>
+                            <h3>Breakfast</h3>
+                            <span class="bg-warning my-1"></span>
+                            <h4 class="text-dark">EGG GRILLED</h4>
+                            <h5>FROM $9.99</h5>
+                        </div>
+                        <div class="breakfast-img"></div>
+                        <div class="brunch-img"></div>
+                        <div class="description four-col-description to-left-arrow">
+                            <i class="fas fa-utensils"></i>
+                            <h3>Brunch</h3>
+                            <span class="bg-warning my-1"></span>
+                            <h4 class="text-dark">CORN</h4>
+                            <h5>FROM $9.99</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 pl-md-0">
+                    <div class="potion">
+                        <div class="description two-col-description bg-warning text-light">
+                            <i class="fas fa-pizza-slice"></i>
+                            <h3>Dinner</h3>
+                            <span class="bg-light"></span>
+                            <h4>PIZZA</h4>
+                            <p>
+                                Aheaping pxortion of a local favorite. Golden fried shrimp served with french frie.
+                            </p>
+                            <h5>$ 9.99</h5>
+                        </div>
+                        <div class="pizza-img"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="our-menu">
+        <header class="section-header text-center">
+            <h2 class="text-warning">Discover</h2>
+            <h3 class="text-light mb-5">OUR MENU</h3>
+        </header>
+        <div class="container text-light">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="our-menu our-menu-left">
+                        <article>
+                            <h5>POMOGRANATE SHOTS ---------<span class="d-none d-lg-inline">-----------</span><span
+                                    class="d-none d-xl-inline">--------</span>
+                                <span>$50</span>
+                            </h5>
+                            <small>cheese,tomato,mushrooms,onions</small>
+                        </article>
+                        <article>
+                            <h5>POMOGRANATE SHOTS ---------<span class="d-none d-lg-inline">-----------</span><span
+                                    class="d-none d-xl-inline">--------</span>
+                                <span>$50</span>
+                            </h5>
+                            <small>cheese,tomato,mushrooms,onions</small>
+                        </article>
+                        <article>
+                            <h5>POMOGRANATE SHOTS ---------<span class="d-none d-lg-inline">-----------</span><span
+                                    class="d-none d-xl-inline">--------</span>
+                                <span>$50</span>
+                            </h5>
+                            <small>cheese,tomato,mushrooms,onions</small>
+                        </article>
+                        <article>
+                            <h5>POMOGRANATE SHOTS ---------<span class="d-none d-lg-inline">-----------</span><span
+                                    class="d-none d-xl-inline">--------</span>
+                                <span>$50</span>
+                            </h5>
+                            <small>cheese,tomato,mushrooms,onions</small>
+                        </article>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="our-menu our-menu-right">
+                        <article>
+                            <h5>POMOGRANATE SHOTS ---------<span class="d-none d-lg-inline">-----------</span><span
+                                    class="d-none d-xl-inline">--------</span>
+                                <span>$50</span>
+                            </h5>
+                            <small>cheese,tomato,mushrooms,onions</small>
+                        </article>
+                        <article>
+                            <h5>POMOGRANATE SHOTS ---------<span class="d-none d-lg-inline">-----------</span><span
+                                    class="d-none d-xl-inline">--------</span>
+                                <span>$50</span>
+                            </h5>
+                            <small>cheese,tomato,mushrooms,onions</small>
+                        </article>
+                        <article>
+                            <h5>POMOGRANATE SHOTS ---------<span class="d-none d-lg-inline">-----------</span><span
+                                    class="d-none d-xl-inline">--------</span>
+                                <span>$50</span>
+                            </h5>
+                            <small>cheese,tomato,mushrooms,onions</small>
+                        </article>
+                        <article>
+                            <h5>POMOGRANATE SHOTS ---------<span class="d-none d-lg-inline">-----------</span><span
+                                    class="d-none d-xl-inline">--------</span>
+                                <span>$50</span>
+                            </h5>
+                            <small>cheese,tomato,mushrooms,onions</small>
+                        </article>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <a href="#" class="btn btn-outline-light btn-lg d-inline-block mt-5 rounded-0">VIEW ALL MENU</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reservation">
+        <header class="section-header text-center">
+            <h2 class="text-warning">Reservation</h2>
+            <h3 class="text-dark mb-5">BOOKING TABLE</h3>
+        </header>
+        <div class="container">
+            <form class="form-inline">
+                <div class="form-group col-md-3">
+                    <input type="date" class="form-control w-100">
+                </div>
+                <div class="form-group col-md-3">
+                    <input type="time" class="form-control w-100">
+                </div>
+                <div class="form-group col-md-3">
+                    <select class="form-control w-100">
+                        <option>1 People</option>
+                        <option>2 People</option>
+                        <option>3 People</option>
+                        <option>4 People</option>
+                        <option>5 People</option>
+                        <option>6 People</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3">
+                    <button type="submit" class="btn btn-warning rounded-0 text-light btn-block">FIND A TABLE</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3">
+                        <h5>CONTACT US</h5>
+                        <p>5018 Glenwood Avenue<br>Austin, MN 55912<br>617-789-0001<br>info@your-restaurant.com</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <h5>OPENNING HOUR</h5>
+                        <p>Monday - Thursday<br>5:30 PM - 10:00 AM<br>Friday & Sunday<br>5:30 PM - 11:00 AM</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <h5>FOLLOW US</h5>
+                        <a href="#" class="d-block">Facebook</a>
+                        <a href="#" class="d-block">Instagram</a>
+                        <a href="#" class="d-block">Twitter</a>
+                        <a href="#" class="d-block">Pinterest</a>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <h5>NEWSLATTER</h5>
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control text-center rounded-0"
+                                    placeholder="Enter your email...">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-warning btn-block rounded-0">SUBCRIBE</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center py-4 mb-0">copyright &#169; 2016 <span class="text-warning">Zoo Template</span>. All
+            rights
+            reserved</p>
+    </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
